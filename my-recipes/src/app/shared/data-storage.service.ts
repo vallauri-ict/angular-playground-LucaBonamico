@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataStorageService {
-  private REST_API_SERVER="https://localhost:3000";
+  private REST_API_SERVER="http://localhost:3000/";
 
   constructor(private httpClient: HttpClient) { }
 
